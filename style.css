@@ -1,0 +1,164 @@
+body {
+    background-color: #fff;
+    font-family: 'Trebuchet MS';
+    font-size: 0.9em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #222;
+}
+
+.sayfa {
+    width: 950px;
+    margin: 0px auto;
+    border: 1px solid #333;
+}
+
+.menu {
+    background: url("assets/ust-menu-bg.png");
+    padding: 5px 5px 5px 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #333;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.temizle {
+    clear: both;
+}
+
+.menu ul li a {
+    display: block;
+    line-height: 28px;
+    border: 1px solid #fff;
+    background: #3b5d64;
+    color: #fff;
+    padding: 0px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.menu ul li a:hover {
+    color: #000;
+    border: 1px solid #000;
+    background: #d6edc8;
+
+}
+
+/* ** */
+.icerik {
+    background: #dee8ed;
+    padding: 5px;
+}
+
+.iceriksol {
+    width: 220px;
+    float: left;
+}
+
+.iceriksag {
+    width: 705px;
+    float: left;
+}
+
+.solmenu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.solmenu li a {
+    display: block;
+    background: url('assets/sol-menu-bg.png') no-repeat;
+    line-height: 35px;
+    padding-left: 35px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.solmenu li a:hover {
+    background: url('assets/sol-menu-hover-bg.png') no-repeat;
+    color: #000;
+}
+
+.haberkutu {
+    border: 1px solid #333;
+    border-bottom: 2px solid #333;
+    background: #f9fafb;
+    padding: 5px;
+    margin: 0px 5px 5px 0px;
+    font-size: small;
+}
+
+.haberkutu h3 {
+    margin: 0px;
+}
+
+.haberkutu img {
+    float: left;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.iceriksag {
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.solresim {
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+}
+
+.sagresim {
+    float: right;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+}
+
+.ortaresim {
+    display: block;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+}
+
+.iceriktablo {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+.iceriktablo tr td {
+    border: 1px solid #ccc;
+    padding: 5px;
+
+}
+
+.onemli {
+    border: 1px solid #ccc;
+    background: #d6edc8;
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+}
+
+
+/* ** */
+.alt {
+    background: #222;
+    color: white;
+    font-size: small;
+    padding: 10px;
+}
